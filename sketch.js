@@ -56,14 +56,11 @@ function draw() {
 
 function keyPressed() {
  if (keyCode === DOWN_ARROW) {
-	Matter.Body.setS(packageBody,false);
+	Matter.Body.setStatic(packageBody,false);
     
   }
 }
 
-function display()
-{
-	package.display();
-}
+
 
 
